@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: grey;
+}
+#canvas1{
+    width: 600px;
+    height: 600px;
+    border: 4px solid black;
+    display: flex;
+    align-items: center;
+    margin: 25px 450px;
+    background-color: antiquewhite;
+}
+#controls{
+    color: aliceblue;
+    font-size: 20px;
+    margin: 20px 650px;
+    width: 300px;
+    cursor: pointer;
+    z-index: 10;
+}
+#controls option{
+    color: rgb(180, 220, 255);
+    font-size: 20px;
+}
